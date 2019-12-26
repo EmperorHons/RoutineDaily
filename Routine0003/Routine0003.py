@@ -5,7 +5,6 @@ import random
 import redis
 from tqdm import tqdm
 from time import sleep
-import pysnooper
 
 r = redis.Redis(host='localhost', port=6379, db=0)
 
@@ -24,7 +23,6 @@ for x in range(10):
 
 
 # 生成16位激活码
-@pysnooper.snoop()
 def gen_code():
     s = ''
     for x in range(16):
