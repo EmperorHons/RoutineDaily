@@ -3,7 +3,6 @@
 https://blog.csdn.net/shifanfashi/article/details/89394026
 第 0005 题： 你有一个目录，装了很多照片，把它们的尺寸变成都不大于 iPhone5 分辨率的大小
 """
-
 from PIL import Image
 # PIL是Python Imaging Library 是图像存档和批处理应用程序的理想选择。您可以使用该库创建缩略图，在文件格式之间进行转换，打印图像等。
 import os.path
