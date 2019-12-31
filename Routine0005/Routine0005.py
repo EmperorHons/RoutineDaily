@@ -14,7 +14,6 @@ import pysnooper
 @pysnooper.snoop()
 def Size(dirPath, size_x, size_y):
     f_list = os.listdir(dirPath)
-
     for i in f_list:
         if os.path.splitext(i)[1] == '.png' \
                 or os.path.splitext(i)[1] == '.jpg' \
