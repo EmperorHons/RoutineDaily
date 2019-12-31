@@ -8,6 +8,7 @@ from PIL import Image
 import os.path
 # os.path 模块主要用于获取文件的属性
 import pysnooper
+# 打印代码执行顺序
 
 
 @pysnooper.snoop()
