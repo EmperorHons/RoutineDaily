@@ -22,8 +22,8 @@ def main():
     f.close()
     # 获取全部代码
 
-    pattern = '.*#'  # 正则表达式
-
+    pattern = '.*#'
+    # 正则表达式
     for i in read_f:
         if "#" in i:
             if re.findall(pattern, i)[0][:-1].isspace() or re.findall(pattern, i)[0][:-1] == "":
