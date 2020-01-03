@@ -21,7 +21,6 @@ def main():
     read_f = f.readlines()
     f.close()
     # 获取全部代码
-
     pattern = '.*#'
     # 正则表达式
     for i in read_f:
